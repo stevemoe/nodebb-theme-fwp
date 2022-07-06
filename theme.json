@@ -1,6 +1,6 @@
 {
-    "id": "nodebb-theme-quickstart",
-    "name": "My Theme Name",
-    "description": "Enter a description here",
-    "url": "https://github.com/nodebb/nodebb-theme-quickstart"
+    "id": "nodebb-theme-fwp",
+    "name": "Friends With Plants",
+    "description": "Theme for Friends With Plants",
+    "url": "https://github.com/stevemoe/nodebb-theme-fwp"
 }
