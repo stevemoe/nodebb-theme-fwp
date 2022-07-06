@@ -1,18 +1,21 @@
 {
 	"id": "nodebb-theme-fwp",
-	"library": "./lib/theme.js",
 	"hooks": [
-		{
-			"hook": "filter:widgets.getAreas", "method": "defineWidgetAreas"
-		}
+		{ "hook": "filter:widgets.getAreas", "method": "defineWidgetAreas" },
+		{ "hook": "filter:config.get", "method": "getThemeConfig" },
+		{ "hook": "static:app.load", "method": "init" },
+		{ "hook": "filter:admin.header.build", "method": "addAdminNavigation" },
+		{ "hook": "filter:user.profileMenu", "method": "addProfileItem" },
+		{ "hook": "filter:topic.build", "method": "addUserToTopic" }
 	],
 	"scripts": [
-		"public/client.js",
-		"../nodebb-theme-persona/public/persona.js",
-		"../nodebb-theme-persona/public/modules/autohidingnavbar.js",
-		"../nodebb-theme-persona/public/modules/quickreply.js"
+		"public/modules/autohidingnavbar.js",
+		"public/persona.js"
 	],
 	"modules": {
-		"pulling.js": "node_modules/pulling/build/pulling-drawer.js"
-	}
+		"../admin/plugins/persona.js": "public/admin.js",
+		"persona/quickreply.js": "public/modules/quickreply.js",
+		"../client/account/theme.js": "public/settings.js"
+	},
+	"languages": "languages"
 }

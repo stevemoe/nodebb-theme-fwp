@@ -1,6 +1,7 @@
 {
     "id": "nodebb-theme-fwp",
     "name": "Friends With Plants",
-    "description": "Theme for Friends With Plants",
-    "url": "https://github.com/stevemoe/nodebb-theme-fwp"
+    "description": "Friends With Plants theme for NodeBB",
+    "url": "https://github.com/stevemoe/nodebb-theme-fwp",
+    "screenshot": "screenshot.png"
 }
