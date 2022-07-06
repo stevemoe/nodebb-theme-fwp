@@ -3,7 +3,7 @@
 
 	<div class="content col-xs-12 <!-- IF config.hideCategoryLastPost -->col-md-10 col-sm-12<!-- ELSE -->col-md-7 col-sm-9<!-- ENDIF config.hideCategoryLastPost -->">
 		<div class="relative">
-			<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 83.5 76.6" style="function.generateCategorySVGBackground" xml:space="preserve" class="icon pull-left max-w-[50px] p-0">
+			<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 83.5 76.6" style="{function.generateCategorySVGBackground}" xml:space="preserve" class="icon pull-left max-w-[50px] p-0">
 
 			<path class="st0 p-0" d="M36.1,1.9C8,5.3-9,44.2,11,65.3C21.1,76,38.8,75.8,41.5,75.6c16.3-1.1,31.8-12.2,37.7-27.4
         	C89.6,20.9,60.1-1,36.1,1.9z"></path>
